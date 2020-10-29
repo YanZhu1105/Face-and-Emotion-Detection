@@ -52,7 +52,7 @@ def remove_prefix(state_dict, prefix):
     return {f(key): value for key, value in state_dict.items()}
 
 
-def load_model(model, pretrained_path, load_to_cpu):
+def load_model(model = FaceBoxes(phase='test', size=None, num_classes=2), pretrained_path = args.trained_model, load_to_cpu = args.cpu):
     # print('Loading pretrained model from {}'.format(pretrained_path))
     if load_to_cpu:
         pretrained_dict = torch.load(pretrained_path, map_location=lambda storage, loc: storage)
@@ -65,16 +65,17 @@ def load_model(model, pretrained_path, load_to_cpu):
         pretrained_dict = remove_prefix(pretrained_dict, 'module.')
     check_keys(model, pretrained_dict)
     model.load_state_dict(pretrained_dict, strict=False)
+    model.eval()
     return model
 
 
-def faceboxes(img_raw, cur_frame_counter):
+def faceboxes(img_raw, cur_frame_counter, net):
     img = np.float32(img_raw)
     torch.set_grad_enabled(False)
     # net and model
-    net = FaceBoxes(phase='test', size=None, num_classes=2)    # initialize detector
-    net = load_model(net, args.trained_model, args.cpu)
-    net.eval()
+    # net = FaceBoxes(phase='test', size=None, num_classes=2)    # initialize detector
+    # net = load_model(net, args.trained_model, args.cpu)
+    # net.eval()
     # print('Finished loading model!')
     # print(net)
     cudnn.benchmark = True

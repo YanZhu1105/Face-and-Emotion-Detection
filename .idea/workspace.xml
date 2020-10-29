@@ -2,142 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a46d82e-03b2-4eec-abfd-dde397dc0723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Yan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kalman_proj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VID_SAVING_BLOB_NAME01.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data_augment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/wider_voc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faceboxes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_ID_emotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kcf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layers/functions/prior_box.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layers/modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layers/modules/multibox_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/light_cnn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/light_cnn/light_cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/Network_Structure.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/Table1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/Table2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/Table3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/conda_packagelist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/config/CenterNet-104-multi_scale.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/config/CenterNet-104.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/config/CenterNet-52-multi_scale.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/config/CenterNet-52.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/CocoApi.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/MaskApi.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/cocoDemo.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/env.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/init.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/LuaAPI/rocks/coco-scm-1.rockspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/CocoApi.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/CocoEval.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/CocoUtils.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/MaskApi.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/cocoDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/evalDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/gason.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/private/gasonMex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/private/gasonMex.mexa64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/private/gasonMex.mexmaci64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/MatlabAPI/private/getPrmDflt.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/pycocotools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/pycocotools/_mask.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/pycocotools/coco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/pycocotools/cocoeval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/pycocotools/mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/PythonAPI/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/common/gason.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/common/gason.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/common/maskApi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/common/maskApi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/data/coco/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/db/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/db/coco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/db/datasets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/db/detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/external/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/external/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/external/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/external/nms.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/external/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/CenterNet-104.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/CenterNet-52.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/src/bottom_pool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/src/left_pool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/src/right_pool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/_cpools/src/top_pool.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/data_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/kp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/kp_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/scatter_gather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/models/py_utils/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/nnet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/nnet/py_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/sample/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/sample/coco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/sample/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/test/coco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/utils/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/CenterNet-master/utils/tqdm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/faceboxes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/mobilenetv3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiple_object_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save_video01.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/fhog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/kcftracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traffic_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/box_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/00cpu_nms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/cpu_nms.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/gpu_nms.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/gpu_nms.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/nms_kernel.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms/py_cpu_nms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/nms_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/FaceBoxesProd.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/lightCNN_2_checkpoint.pth.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/mobilev3_large.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceboxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceboxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traffic_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/traffic_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -181,7 +51,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../项目1/car_lane_detection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -269,9 +139,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Yan\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -306,6 +176,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Dataset的副本" />
+      <item itemvalue="Python.make_dataset" />
+      <item itemvalue="Python.make_video" />
+      <item itemvalue="Python.traffic_main" />
+      <item itemvalue="Python.train (2)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.traffic_main" />
@@ -347,44 +224,64 @@
       <workItem from="1578889230245" duration="1259000" />
       <workItem from="1578894039313" duration="232000" />
     </task>
+    <task id="LOCAL-00001" summary="Face Tracking and Emotion Detection">
+      <created>1603598765184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603598765184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Face Tracking and Emotion Detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Face Tracking and Emotion Detection" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603583973634">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603944069018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603583973634" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603944069018" />
     <state x="716" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603583949329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603583949329" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603598127523">
+    <state x="587" y="1" key="CommitChangelistDialog2" timestamp="1603598761770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603598127523" />
-    <state width="1876" height="363" key="GridCell.Tab.0.bottom" timestamp="1603584137683">
+    <state x="587" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603598761770" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603692391186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603584137683" />
-    <state width="1876" height="363" key="GridCell.Tab.0.center" timestamp="1603584137683">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603692391186" />
+    <state width="1876" height="363" key="GridCell.Tab.0.bottom" timestamp="1603944058885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603584137683" />
-    <state width="1876" height="363" key="GridCell.Tab.0.left" timestamp="1603584137683">
+    <state width="1876" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603944058885" />
+    <state width="1876" height="363" key="GridCell.Tab.0.center" timestamp="1603944058885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603584137683" />
-    <state width="1876" height="363" key="GridCell.Tab.0.right" timestamp="1603584137683">
+    <state width="1876" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603944058885" />
+    <state width="1876" height="363" key="GridCell.Tab.0.left" timestamp="1603944058885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603584137683" />
+    <state width="1876" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603944058884" />
+    <state width="1876" height="363" key="GridCell.Tab.0.right" timestamp="1603944058885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603944058885" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1603584095830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603584095830" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603598924269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603598924269" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

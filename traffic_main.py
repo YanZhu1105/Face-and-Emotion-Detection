@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import glob
 from config import Configs
-from faceboxes import faceboxes
+from faceboxes import faceboxes, load_model
 from video_helper import VideoHelper
 from multiple_object_controller import MultipleObjectController
 from get_ID_emotion import get_face_ID
@@ -38,6 +38,7 @@ def run():
     # step 2: main loop
     cur_frame_counter = 0
     detection_loop_counter = 0
+    model = load_model()
     while (video_helper.not_finished(cur_frame_counter)):
         print("####################################################### frame: ", cur_frame_counter)
 
@@ -51,7 +52,7 @@ def run():
         # we may neglect some frames between detection)
         if configs.NUM_JUMP_FRAMES == 0:
             # detected results: [{'tag1':[bbx1]}, {'tag2':[bbx2]}, ..., {'tagn':[bbxn]}]
-            detects = faceboxes(frame, cur_frame_counter)
+            detects = faceboxes(frame, cur_frame_counter, model)
             # for detect in detects:
             # update current bbxes for each instance
             start_time_of_tracking = time.time()
@@ -65,7 +66,7 @@ def run():
                 start_turn = time.time()
                 # here we need to detect the frame
                 detection_loop_counter = 0
-                detects = faceboxes(frame, cur_frame_counter)
+                detects = faceboxes(frame, cur_frame_counter, model)
                 object_controller.update(detects, cur_frame_counter, frame)
                 get_face_ID(configs, frame, object_controller.instances, cur_frame_counter)
                 print("detection_loop_counter time span: ", (time.time() - start_turn) * 1000, " ms")
